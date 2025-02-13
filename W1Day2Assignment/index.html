@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level-2 | Assignment 2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header class="bg-primary p-2">
+      <nav class="flex space-between">
+          <h1 class="logo">Keyla Welcome</h1>
+          <ul class="flex gap-2 align-center">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>About</h2>
+        <p>
+            This assignment focuses on understanding fundamental HTML elements and document structure. It explores the purpose and usage of the <code>pre</code> tag for displaying preformatted text, ensuring proper spacing and line breaks are preserved. Additionally, the assignment covers the CSS box model, which defines how elements are structured and spaced on a webpage.
+</p>
+<p>
+                Another key aspect is comparing browser default styles with custom styles. Browsers apply built-in styles to HTML elements by default, but developers can override these styles using CSS. By examining these differences, we gain insight into how styles affect webpage appearance and behavior.
+        </p>
+    </section>
+    <hr>
+    <section>
+        <h2>Introduction to the PRE Tag</h2>
+          <pre>      
+                  <code>
+                      funtion greet(name) {
+                          console.log("Hello, " + name + "!");
+                      }
+      
+                      const user = "Keyla";
+                      greet(user);
+                  </code>
+              </pre>
+        <p>
+            The <span>pre</span> (preformatted text) tag preserves spaces, line breaks, and indentation exactly as written in the HTML, making it useful for displaying code or structured text.
+        </p>
+<p>
+                The <span>code</span> tag is used to indicate inline or block-level code snippets, applying a <span class="mono">monospace font</span> for readability. It does not preserve formatting like <span>pre</span>, so it is often used inside <span>pre</span> for proper code display.
+        </p>
+      </section>
+<hr>
+      <section>
+        <h2>Box Model</h2>
+        <p>
+            This image visually represents the CSS Box Model, showing how margin, border, and padding work together. The outer dark box represents margin, the black outline is the border, and the inner beige box demonstrates padding around the content.        </p>
+
+        <div class="box">
+            <ul class="text">
+                <li>Margin: Space outside the border that pushes elements away</li>
+                <li>Border: Defines the element's edge</li>
+                <li>Padding: Creating space inside the border</li>
+            </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Compare Styles</h2>
+        <p>I observed these default styles applied by my bowser:</p>
+        <ol>
+            <li>Body: Margin: 8px</li>
+            <li>Footer: display: block;</li>
+            <li>Head: display: none; </li>
+        </ol>
+
+        <p>I have also incorporated reset styles into my code for consistency. Enjoy!<p>
+      </section>
+    </main>
+    <footer>
+        
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+
+        <p>Copyright &copy 2025 Created by Keyla Welcome</p>
+    
+    </footer>
+  </body>
+</html>
